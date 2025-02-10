@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.python-version
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Logs and Debug files
+*.log
+debug.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Pytest and Coverage reports
+.coverage
+htmlcov/
+*.cover
+*.py,cover
+.cache/
+nosetests.xml
+coverage.xml
+*.pytest_cache
+
+# MyPy and Type Checking
+.mypy_cache/
+
+# Flask/Django local settings
+instance/
+config.py
+
+# SQLite database files
+*.sqlite3
+db.sqlite3
+
+# Docker files
+docker-compose.override.yml
+
+# Temporary files
+tmp/
